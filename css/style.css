@@ -84,7 +84,7 @@ a{
   }
 
   .main-connect .conncet-chain{
-    border: 1px solid black;
+    border: 1px solid #f1f1f1;
     border-radius: 5px;
   }
 
@@ -101,7 +101,6 @@ a{
     width: 170px;
     height: 48px;
     border-radius: 5px
-    border: 1px solid black;
   }
 
   .main-connect .connect-chain-wrapper .current-connect-chain img{
