@@ -310,6 +310,19 @@ section.forth .image-container .bottom-img{
   z-index: -898
 }
 
+/* ---------------------------------섹션 5--------------------- */
+
+section.fifth{
+  margin-top: 50px;
+  display: block;
+  width:1200px;
+  min-height: 800px;
+}
+
+section.fifth h2{
+  font-size: 40px;
+}
+
 
 
 
