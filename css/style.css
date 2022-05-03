@@ -144,8 +144,6 @@ a{
 
   }
 
-
-
   /* -----------------------------------contents----------- */
   #contents-wrap{
     margin-top:100px;
@@ -163,7 +161,6 @@ a{
     /* grid-gap: 30px;
     gap: 30px; */
   }
-
 
   /* ----------------------------------------섹션1------------- */
 
@@ -337,6 +334,14 @@ section.fifth .items-container > div {
   width: 500px;
   margin-bottom:110px;
   padding: 0;
+}
+
+section.fifth .items-container > div > div {
+  margin-left: 10px;
+}
+
+section.fifth .items-container > div > div > h2 {
+  margin-bottom: 0;
 }
 
 
