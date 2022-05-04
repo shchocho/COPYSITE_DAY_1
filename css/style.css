@@ -344,6 +344,12 @@ section.fifth .items-container > div > div > h2 {
   margin-bottom: 0;
 }
 
+/* -----------------------------섹션6-------------- */
+
+section.sixth{
+  flex-direction: column;
+}
+
 
 
 
