@@ -350,6 +350,85 @@ section.sixth{
   flex-direction: column;
 }
 
+section.sixth .audit_box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+section.sixth .audit_box h2{
+  font-size: 40px;
+}
+
+section.sixth .audit_box img{
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+section.sixth .back-by-box{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  margin-bottom: 150px;
+
+}
+
+section.sixth .back-by-box h3{
+  text-align: center;
+}
+
+section.sixth .dao-llc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #09c;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px 30px;
+  margin-bottom: 150px;
+}
+
+section.sixth .dao-llc h3{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+section.sixth .dao-llc h3 i{
+  color: #09c;
+}
+
+section.sixth .dao-llc .dao-item-wrap{
+  display: flex;
+  justify-content: space-around;
+}
+
+section.sixth .dao-llc .dao-item-wrap .dao-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 284px;
+  height: 284px;
+  border: 1px solid #09c;
+  border-radius: 100%;
+}
+
+section.sixth .surport-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+section.sixth .surport-box .sp-item-wrap{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+  width: 100%;
+  grid-gap: 30px 20px;
+}
 
 
 
