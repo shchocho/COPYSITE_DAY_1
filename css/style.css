@@ -239,7 +239,7 @@ a{
 
   .float-img{
     display: flex;
-    z-index: 9999;
+    z-index: 500;
     animation-name: floatImgfir;
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -484,10 +484,14 @@ section.seventh .governance-wrap .gvn-btn.on{
 
 section.seventh .governance-wrap .gvn-tbl
 {
+  display: none;
   width: 80%;
   border: 1px solid #f0f0f0;
   border-radius: 20px;
   margin-top: 15px;
+}
+section.seventh .governance-wrap .gvn-tbl.active{
+  display: block;
 }
 
 section.seventh .governance-wrap .gvn-tbl.more-btn
@@ -510,6 +514,7 @@ section.seventh .governance-wrap .gvn-tbl .tr-th
   padding: 20px 20px 10px;
   border-bottom: 1px solid #f0f0f0;
 }
+
 section.seventh .governance-wrap .gvn-tbl .tr-th:hover
 {
   background-color: #f0f0f0;
